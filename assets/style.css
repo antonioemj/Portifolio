@@ -1,25 +1,24 @@
 h1, h2, h3, h4{
-    font-size: 100px;
-  padding-bottom: 50px;
+    font-size: auto;
 }
 
 p{
-    font-size: 50px
+    font-size: auto;
 }
 
 button{
+    background-color: black; /* Green */
+    border: none;
     color: white;
-    background-color: #3C3741;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    font-size: 50px;
-   
-    margin: 20px;
-    padding: 10px;
-   
-    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
 }
 button:hover {
-    background-color: white;
+    background-color: #808080;
   }
 a{
     color: aliceblue;
@@ -28,9 +27,22 @@ a{
 a:hover {
     color: black;
   }
-.sectionUm{  
-    margin-bottom: 100px;
-    padding: 100px;
+
+#imgparteum{
+    width: auto;
+    height: 500px;
+}
+#imgperfil{
+    width: auto;
+    height: 300px;
+}
+
+.sectionUm{     
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+
 }
 .sectionDois{
     margin-top: 100px;
