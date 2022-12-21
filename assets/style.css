@@ -1,25 +1,31 @@
-#sectionUm{
-width: 100vw;
-height: 100vh;
-background: #6C7A89;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+.sectionUm{  
+    margin-bottom: 100px;
+    padding: 100px;
 }
-.parteUm{      
-    align-items: center;
-    display: flex; 
+.sectionDois{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: gray;
+    color: aliceblue;
 }
-.btn-Um{
-    display: flex; 
-    padding: 40px;
+.sectionTres{
+    margin-top: 100px;
+    padding: 100px;
 }
-.linkedin{
-   padding-right: 10px;
-   background-color: #4CAF50
+.sectionQuatro{
+    margin-top: 100px;
+    padding: 100px;
+    background-color: gray;
+    color: aliceblue;
 }
-.cvdownload{
-    padding-left: 10px;
-    
+#imgConhecimentos{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+ 
+
 }
