@@ -1,27 +1,19 @@
-body{
-
+a{
+    margin-bottom: 10px;
+    padding: 0px;
+    background-color: aqua;
 }
-h1, h2, h3, h4{
-    font-size: auto;
-    margin-bottom: 20px;
-
-}
-h2{
-    
-    text-align: left;
+#btnpagina{
+    background-color: grey;
+    color: aliceblue;
 }
 
-h4 {
-    text-align: center;
-}
-p{
-    font-size: auto;
-    align-items: center;
-    margin: 1px;
-}
 
-button{
-    background-color: black; /* Green */
+/*
+button{    
+    width: auto;
+    height: auto;
+    background-color: black;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -30,6 +22,7 @@ button{
     display: inline-block;
     font-size: 16px;
     margin: 10px;
+
 }
 button:hover {
     background-color: #808080;
@@ -41,66 +34,14 @@ a{
 a:hover {
     color: white;
   }
-
-#imgparteum{
-    width: auto;
-    height: auto;
-}
-#imgperfil{
-    min-width: 240px;
-    width: auto;
-    height: auto;
-}
-.placeholder{
+ .placeholder{
     background-color: black;
     color: white;
 }
 .placeholder:hover {
     background-color: grey;
   }
-#imgCard{
-
+#cardPortifolio{
+ position: relative;
 }
-.sobremim{
-    text-align: left;
-}
-
-.card{
-    margin-bottom: 20px;
-}
-.sectionUm{     
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-
-}
-.sectionDois{
-    margin-top: 100px;
-    padding: 100px;
-    background-color: gray;
-    color: aliceblue;
-}
-.sectionTres{
-    margin-top: 100px;
-    padding: 100px;
-}
-.sectionQuatro{
-    margin-top: 100px;
-    padding: 100px;
-    background-color: gray;
-    color: aliceblue;
-}
-
-#imgConhecimentos{  
-      
-    height: auto;
-    width: auto;
-    box-shadow: 10px 10px black;
-    border-radius: 10px;
-    background-color: #3C3741;
-    margin: 10px;
-    padding: 50px;
- 
-
-}
+*/
