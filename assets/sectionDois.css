@@ -2,11 +2,11 @@
     font-family: cursive;
     background-color: gray;
     color: aliceblue;
-    padding: 100px 0px;
-    
+    padding: 100px 0px;    
 }
 h2{   
     text-align: left;
+    padding-bottom: 10px;
 }
 .sobremim{
     text-align: left;
