@@ -1,3 +1,6 @@
+body{
+
+}
 h1, h2, h3, h4{
     font-size: auto;
     margin-bottom: 20px;
@@ -7,12 +10,14 @@ h2{
     
     text-align: left;
 }
+
 h4 {
     text-align: center;
 }
 p{
     font-size: auto;
     align-items: center;
+    margin: 1px;
 }
 
 button{
@@ -30,11 +35,11 @@ button:hover {
     background-color: #808080;
   }
 a{
-    color: aliceblue;
+    color: white;
  text-decoration: none;
 }
 a:hover {
-    color: black;
+    color: white;
   }
 
 #imgparteum{
@@ -46,12 +51,23 @@ a:hover {
     width: auto;
     height: auto;
 }
+.placeholder{
+    background-color: black;
+    color: white;
+}
+.placeholder:hover {
+    background-color: grey;
+  }
+#imgCard{
 
+}
 .sobremim{
     text-align: left;
 }
 
-
+.card{
+    margin-bottom: 20px;
+}
 .sectionUm{     
     display: block;
     margin-left: auto;
@@ -77,6 +93,7 @@ a:hover {
 }
 
 #imgConhecimentos{  
+      
     height: auto;
     width: auto;
     box-shadow: 10px 10px black;
